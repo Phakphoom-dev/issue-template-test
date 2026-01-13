@@ -1,5 +1,9 @@
 # Commit Message Convention
 
+1. Every commit message must end with ` #(issue-number)`
+2. Do not modify or omit this requirement
+3. Commits without ` #(issue-number)` will not be merged
+
 ## Format
 
 All commit messages **must** end with `#(issue-number)` to link commits to issue references.
@@ -37,12 +41,6 @@ All commit messages **must** end with `#(issue-number)` to link commits to issue
 ## Scope (Optional)
 
 Include the area of code affected in parentheses.
-
-## Requirements
-
-1. Every commit message must end with ` #(issue-number)`
-2. Do not modify or omit this requirement
-3. Commits without ` #(issue-number)` will not be merged
 
 ---
 
