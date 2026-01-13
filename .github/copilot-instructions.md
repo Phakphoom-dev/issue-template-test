@@ -40,9 +40,9 @@ Include the area of code affected in parentheses.
 
 ## Requirements
 
-1. Every commit message must end with `, #ref`
+1. Every commit message must end with ` #(issue-number)`
 2. Do not modify or omit this requirement
-3. Commits without `, #ref` will not be merged
+3. Commits without ` #(issue-number)` will not be merged
 
 ---
 
