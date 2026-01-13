@@ -18,15 +18,15 @@ All commit messages **must** end with `#(issue-number)` to link commits to issue
 
 ✅ **Valid:**
 
-- `feat(auth): add login endpoint, #ref`
-- `fix(database): resolve connection timeout, #ref`
-- `docs: update installation guide, #ref`
-- `style(ui): format button styles, #ref`
+- `feat(auth): add login endpoint, #(issue-number)`
+- `fix(database): resolve connection timeout, #(issue-number)`
+- `docs: update installation guide, #(issue-number)`
+- `style(ui): format button styles, #(issue-number)`
 
 ❌ **Invalid:**
 
-- `feat(auth): add login endpoint` (missing `, #ref`)
-- `fix(database): resolve connection timeout #ref` (missing comma)
+- `feat(auth): add login endpoint` (missing `, #(issue-number)`)
+- `fix(database): resolve connection timeout #(issue-number)` (missing comma)
 
 ## Commit Types
 
