@@ -1,6 +1,6 @@
 name: 📝 Change Log & Commit Reference
 description: 🔍 Track what changes were made with commit details (Feature/FixBug/Change)
-title: ""
+title: "[Change]: "
 labels: []
 assignees: []
 body:
@@ -8,7 +8,7 @@ body:
     attributes:
       value: |
         **⚠️ Please fill in all required fields below.**
-  
+
   - type: dropdown
     id: type
     attributes:
@@ -20,7 +20,7 @@ body:
         - Change
     validations:
       required: true
-  
+
   - type: input
     id: summary
     attributes:
@@ -29,7 +29,7 @@ body:
       placeholder: e.g., Added user authentication feature
     validations:
       required: true
-  
+
   - type: textarea
     id: changes-made
     attributes:
@@ -41,7 +41,7 @@ body:
         - Updated database schema
     validations:
       required: true
-  
+
   - type: input
     id: commit-hash
     attributes:
@@ -50,7 +50,7 @@ body:
       placeholder: e.g., abc123def456
     validations:
       required: true
-  
+
   - type: textarea
     id: additional-notes
     attributes:
