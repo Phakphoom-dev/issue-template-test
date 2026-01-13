@@ -42,14 +42,12 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     id: commit-hash
     attributes:
       label: 🔗 Commit Hash Reference
       description: Copy and paste the commit hash(es) related to this issue
       placeholder: e.g., abc123def456
-    validations:
-      required: true
 
   - type: textarea
     id: additional-notes
