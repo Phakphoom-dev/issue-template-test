@@ -2,12 +2,12 @@
 
 ## Format
 
-All commit messages **must** end with `, #ref` to link commits to issue references.
+All commit messages **must** end with `#(issue-number)` to link commits to issue references.
 
 ### Pattern
 
 ```
-<type>(<scope>): <subject>, #ref
+<type>(<scope>): <subject> #(issue-number)
 ```
 
 ### Examples
