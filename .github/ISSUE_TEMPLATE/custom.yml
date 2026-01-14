@@ -1,39 +1,30 @@
-name: 📝 Change Log & Commit Reference
-description: 🔍 Track what changes were made with commit details (Feature/FixBug/Change)
-title: "[Change]: "
+name: Change Log & Commit Reference
+description: Track what changes were made with commit details (Feature/FixBug/Change)
+title: "title"
 labels: []
 assignees: []
 body:
   - type: markdown
     attributes:
       value: |
-        **⚠️ Please fill in all required fields below.**
+        **Please fill in all required fields below.**
 
   - type: dropdown
     id: type
     attributes:
-      label: 🏷️ Type
+      label: Type
       description: Select the type of change
       options:
-        - Feature
+        - New Feature
         - FixBug
         - Change
-    validations:
-      required: true
-
-  - type: input
-    id: summary
-    attributes:
-      label: 📋 Summary
-      description: Brief description of what was done
-      placeholder: e.g., Added user authentication feature
     validations:
       required: true
 
   - type: textarea
     id: changes-made
     attributes:
-      label: ✨ Changes Made
+      label: Changes Made
       description: Describe in detail what changes were made. List all modifications, additions, or deletions
       placeholder: |
         - Added new authentication module
@@ -45,14 +36,14 @@ body:
   - type: textarea
     id: commit-hash
     attributes:
-      label: 🔗 Commit Hash Reference
+      label: Commit Hash Reference
       description: Copy and paste the commit hash(es) related to this issue
       placeholder: e.g., abc123def456
 
   - type: textarea
     id: additional-notes
     attributes:
-      label: 💬 Additional Notes
+      label: Additional Notes
       description: Any other relevant information, screenshots, or context
       placeholder: Optional additional information
     validations:
